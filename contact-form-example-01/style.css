@@ -1,0 +1,38 @@
+body{
+        background-image: linear-gradient(45deg, #864ef2, #6755F4);
+}
+.uf-contact-form-01 {
+    max-width: 900px;
+}
+@media (min-width: 576px){
+     .uf-contact-form-01 {
+    min-height: 100vh;
+    align-content: center;
+} 
+}
+.uf-img-contact-form-01{
+      max-width: 100%;
+      animation: uf-animation 4s ease-in-out 1s infinite alternate;
+      position: relative;
+}
+.uf-ct-01-text-primary{
+      color: #864ef2;
+}
+.uf-ct-01-btn-primary{
+      background-color: #864ef2;
+      color: #fff;
+}
+.uf-ct-01-btn-primary:hover{
+      background-color: #641eec;
+      color: #fff;
+}
+
+@keyframes uf-animation {
+  0%   {top:0px;}
+  50%  {top:-30px;}
+  100% {top:0px;}
+}
+.form-control:focus {
+    border-color: #a979ff;
+    box-shadow: 0 0 0 .25rem rgb(103 58 183 / 21%);
+}
